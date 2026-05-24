@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Bottom from "./components/Bottom";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -28,13 +30,21 @@ export default function Home() {
           </div>
         </div>
 
-       <div>
-        <Hero />
-       </div>
+        <div>
+          <Hero />
+        </div>
+
+        <div>
+          <Bottom />
+        </div>
+
+        <div>
+          <Footer />
+        </div>
 
       </div>
-      
-      
+
+
 
     </div>
   )

@@ -9,7 +9,7 @@ export default function Navbar() {
       <div className="max-w-[1440px] mx-auto px-6 md:px-12 h-20 flex items-center justify-between">
         
         {/* Chap tomondagi Logotip Linki */}
-        <Link href=""
+        <Link href={'/'}
           className="text-2xl font-black tracking-[-0.1em] hover:opacity-80 transition-opacity flex items-center gap-1 select-none"
         >
           <span>SPACEX</span>
@@ -19,7 +19,7 @@ export default function Navbar() {
 
         {/* O'ng tomondagi Menyu Tugmasi Linki */}
         <Link 
-          href="menu" 
+          href={'/menu'} 
           className="p-2 hover:opacity-70 transition-opacity duration-200 group relative"
           aria-label="Menu"
         >
